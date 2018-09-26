@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>main.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="../css/main.css" type="text/css"></link>
+    <link rel="stylesheet"
+	href="../thirdparty/bootstrap-3.3.7-dist/css/bootstrap.min.css"
+	type="text/css"></link>
+<link rel="stylesheet"
+	href="../thirdparty/panenation/simplePagination.css" type="text/css"></link>
+	<script type="text/javascript"
+	src="https://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+	
+<script type="text/javascript"
+	src="../thirdparty/panenation/jquery.simplePagination.js"></script>
+<script type="text/javascript"
+	src="../thirdparty/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../components/global.js"></script>
+  <script type="text/javascript" src="../components/CommonSupport.js"></script>
+  <script type="text/javascript" src="../components/global.js"></script>
+  <script type="text/javascript" src="../components/main.js"></script>
+  </head>
+  
+  <body>
+    	<div>
+    		<p><span>卡号</span><span id="kh"></span><a href="javascript:void(0)" id="tc">退出登录</a></p>
+    		<p><a href="javascript:void(0)" id="ye">查询余额</a></p>
+    		<p><a href="javascript:void(0)" id="zz">转账</a></p>
+    		<p><a href="javascript:void(0)" id="cx">查询交易记录</a></p>
+    		<p><a href="javascript:void(0)" id="pw">修改密码</a></p>
+    	</div>
+    	<div id="gn">
+    	<h1>欢迎使用个人网上银行</h1>
+    	</div>
+    	<div id="sj" style="display: none">
+    		<div>
+    			<h4>当前操作，查询交易记录，请选择时间范围后点击“查询”按钮</h4>
+    			<p><span>查询日期范围：</span><span><input type="text" id="on"></span><span><input type="text" id="tw"></span><span><input type="button" value="查询" id="bt"></span></p>
+    		</div>
+    		<div id="ss">
+    			 <table class='table table-striped' id="sd"></table>
+    			<DIV class=pager id="div_page"></DIV>
+    		</div>
+    	</div>
+    	
+  </body>
+</html>

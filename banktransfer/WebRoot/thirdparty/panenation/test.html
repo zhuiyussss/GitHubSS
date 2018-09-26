@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>jQuery Pagination - jPaginate</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="jPaginate - jQuery Pagination Plugin" />
+        <meta name="keywords" content="jquery, plugin, pagination, fancy" />
+        <script type="text/javascript" src="jquery-1.8.3.js"></script>
+<script type="text/javascript" src="jquery.simplePagination.js"></script>
+<link type="text/css" rel="stylesheet" href="simplePagination.css"/>
+
+    </head>
+    <body>
+	<div id="div_page" style=" border:solid 1px red;"></div>
+<script type="text/javascript">
+$(function() {
+    $("#div_page").hello({
+        items: 5000,
+        itemsOnPage: 10,
+        cssStyle: 'light-theme',
+		hrefTextPrefix:'?pageindex='
+    });
+});
+</script>
+	</body>
+</html>
+
+
+ 
